@@ -4,7 +4,7 @@ import { RouterApp } from './routes/index.js';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <RouterApp/>
     </div>
   );
