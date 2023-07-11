@@ -1,0 +1,18 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.Card_Text{
+    justify-content: start;
+}
+
+.Card_Text h2{
+    margin: 0px;
+}
+
+.Card_Text p{
+    text-align:justify;
+}
