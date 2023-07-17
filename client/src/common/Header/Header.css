@@ -1,0 +1,20 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.Logo_Header {
+    border: 2px solid green;
+    margin-right: 20px; /* Ajuste o valor conforme necessário */
+}
+
+.Elements_Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
