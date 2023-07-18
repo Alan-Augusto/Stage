@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import { useEffect } from "react";
+
 import './Home.css'
 import Card from '../../common/Card/Card';
 import Header from '../../common/Header/Header';
 
 function Home() {
-  useEffect(() => {
-    document.documentElement.classList.add("full-height");
-  }, []);
+
   
 return (
     <div className='home'>

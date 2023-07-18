@@ -1,6 +1,14 @@
 .my_button{
-    margin: 5px;
+    margin-right: 15px;
     border-radius: 8px;
-    background-color: aqua;
-    box-shadow: 4px;
+    height: 32px;
+    font-family: montserrat;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+.my_button:hover{
+    background-color: #D7AC74;
+    color: white;
 }
