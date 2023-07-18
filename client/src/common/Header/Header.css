@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
+    height: 120px;
     width: 100%;
     background-color: #263439;
 }
 
-.Logo_Header {
-    border: 2px solid green;
-    margin-right: 20px; /* Ajuste o valor conforme necessário */
+.Logo_Header img{
+    height: 80px;
+    margin-left: 20px; /* Ajuste o valor conforme necessário */
 }
 
 .Elements_Header {

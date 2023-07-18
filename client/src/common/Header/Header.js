@@ -9,7 +9,7 @@ function Header({}) {
   return (
         <div className="Header">
             <div className="Logo_Header">
-                <img src="logo.png" alt="logo" />
+                <img src="https://i.imgur.com/ae0Tsfu.png" alt="logo" />
             </div>
 
             <div className="Elements_Header">
