@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import Button from "../Button/Button";
 import {useNavigate} from 'react-router-dom'
+import SearchBar from "./SearchBar/SearchBar";
 
 function Header({}) {
     const navigate = useNavigate()
@@ -21,7 +22,9 @@ function Header({}) {
                 <Button title="Parceiros" click={(e)=>navigate('/parceiros')}/>
                 <Button title="Contatos" click={(e)=>navigate('/contatos')}/>
                 <Button title="Equipe" click={(e)=>navigate('/equipe')}/>
-            
+
+                <SearchBar/>
+
             </div>
         </div>
     );
