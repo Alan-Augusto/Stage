@@ -25,6 +25,10 @@ function Header({}) {
 
                 <SearchBar/>
 
+                <img className="Social_Media" src="https://i.imgur.com/7ZGBndX.png" alt="Linkedin"/>
+                <img className="Social_Media" src="https://i.imgur.com/RBVMlLq.png" alt="instagram"/>
+                <img className="Social_Media" id="YouTube" src="https://i.imgur.com/OWEpVne.png" alt="Youtube"/>
+
             </div>
         </div>
     );

@@ -15,6 +15,7 @@ function SearchBar({ title, icon, click}) {
             className="SearchBar_Icon"
             src="https://cdn-icons-png.flaticon.com/512/149/149852.png "
             alt="icon"
+            onClick={(e)=>console.log("Clicou")}
         />
 
     </div>
