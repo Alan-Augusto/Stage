@@ -8,9 +8,9 @@ function Equipe() {
 return (
     <div className='Equipe'>
       <Header/>
-      <div>
-        Bem vindo à página Equipe
-      </div>
+
+      Bem vindo à página Equipe
+    
     </div>
   );
 }

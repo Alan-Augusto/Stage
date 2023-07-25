@@ -8,9 +8,8 @@ function Categorias() {
 return (
     <div className='Categorias'>
       <Header/>
-      <div>
-        Bem vindo à página Categorias
-      </div>
+      
+      Bem vindo à página Categorias
     </div>
   );
 }

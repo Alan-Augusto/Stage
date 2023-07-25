@@ -8,9 +8,9 @@ function Contatos() {
 return (
     <div className='Contatos'>
       <Header/>
-      <div>
-        Bem vindo à página Contatos
-      </div>
+      
+      Bem vindo à página Contatos
+      
     </div>
   );
 }

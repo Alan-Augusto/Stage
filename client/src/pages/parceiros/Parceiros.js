@@ -9,7 +9,10 @@ return (
     <div className='Parceiros'>
       <Header/>
       <div>
-        Bem vindo à página Parceiros
+        Colocar que foram *mapeados* possíveis Parceiros
+        Colocar uma logo e um textinho que tem no documento
+
+        Segmentar por startups e grandes empresas
       </div>
     </div>
   );
