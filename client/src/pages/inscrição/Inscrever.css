@@ -1,0 +1,73 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100vw;
+    height: calc(100vh - 120px);
+    background-image:url("./assets/Tesla.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+}
+
+
+h4 {
+   text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: calc((100vh - 120px) *0.9);
+    background-color: #263439;
+    border: 1px inset white;
+    border-radius: 10px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
+}
+
+select {
+    margin: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
+form > div {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#inscription {
+    margin-top: 20px;
+    height: 25px;
+    width: 120px;
+    background-color: #232e31;
+    border: 1px inset white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#inscription:active {
+    background-color: #263439;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+}
