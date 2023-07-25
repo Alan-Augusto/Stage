@@ -1,5 +1,37 @@
-.temporadas{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    height: 40vh;
+    background-color: white;
+    margin: 20px; /* Adicione a margem desejada */
+    padding: 20px; /* Adicione um espaçamento interno se necessário */
+  }
+  .event {
+    margin-bottom: 20px;
+    display: flex; /* Utiliza flexbox para alinhar o conteúdo */
+    align-items: flex-start; /* Alinha os itens ao topo do flex container */
+  }
+  
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+  
+  
+  p {
+    font-size: 18px;
+  }
+  
+  .image-right {
+    margin-top: 50px;
+    margin-left: 300px; /* Adicione margem à esquerda para separar a imagem do parágrafo */
+    width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+  }

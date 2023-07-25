@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Button from "../Button/Button";
+import Button from "../button/Button.js";
 import { useNavigate } from 'react-router-dom';
 import SearchBar from "./SearchBar/SearchBar";
 
