@@ -41,7 +41,7 @@ function Header() {
                 </div>
                 <Button title="Contatos" click={(e) => navigate('/contatos')} />
                 <Button title="Equipe" click={(e) => navigate('/equipe')} />
-                <Button title="Inscreva-se" click={(e) => navigate('/')} />
+                <Button title="Inscreva-se" click={(e) => navigate('/inscrição')} />
 
                 <SearchBar />
 

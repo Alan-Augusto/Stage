@@ -5,6 +5,7 @@ import Categorias from '../pages/categorias/Categorias'
 import Parceiros from '../pages/parceiros/Parceiros'
 import Contatos from '../pages/contatos/Contatos'
 import Equipe from '../pages/equipe/Equipe'
+import Inscrever from '../pages/inscrição/Inscrever'
 
 import SP24 from '../pages/temporadas/SP24/SP24'
 import SP25 from '../pages/temporadas/SP25/SP25'
@@ -25,6 +26,7 @@ export const RouterApp=()=>{
                 <Route path='temporadas/SP25' element={<SP25/>}/>
                 <Route path='temporadas/MG24' element={<MG24/>}/>
                 <Route path='temporadas/PB25' element={<PB25/>}/>
+                <Route path='/inscrição' element={<Inscrever/>}/>
             </Routes>
         </Router>
     )
