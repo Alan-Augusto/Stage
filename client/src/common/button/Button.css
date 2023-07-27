@@ -1,15 +1,15 @@
-.my_button{
-    margin-right: 15px;
-    border-radius: 8px;
-    height: 32px;
-    font-family: montserrat;
-    color: black;
-    cursor: pointer;
-    border: none;
-    background-color: white;
+.my_button {
+  margin-right: 15px;
+  border-radius: 8px;
+  height: 32px;
+  font-family: montserrat;
+  color: black;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
 
-.my_button:hover{
-    background-color: #D7AC74;
-    color: white;
+.my_button:hover {
+  background-color: #d7ac74;
+  color: white;
 }
