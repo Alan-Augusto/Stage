@@ -1,30 +1,54 @@
 .Header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    width: 100%;
-    background-color: #263439;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+  background-color: #263439;
 }
 
-.Logo_Header img{
-    height: 80px;
-    margin-left: 20px; /* Ajuste o valor conforme necessário */
+.Logo_Header img {
+  height: 80px;
+  margin-left: 20px; /* Ajuste o valor conforme necessário */
 }
 
 .Elements_Header {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
 }
 
-.Social_Media{
-    height: 20px;
-    margin-right: 10px;
+.Dropdown-Content {
+  position: absolute;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-#YouTube{
-    height: 25px;
-    margin-right:30px ;
+.Dropdown-Button {
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-family: montserrat;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.Dropdown-Button:hover {
+  background-color: #d7ac74;
+  color: white;
+}
+
+.Social_Media {
+  height: 20px;
+  margin-right: 10px;
+}
+
+#YouTube {
+  height: 25px;
+  margin-right: 30px;
 }

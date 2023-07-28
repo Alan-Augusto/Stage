@@ -6,11 +6,12 @@
   font-family: montserrat_italic;
   src: url(../public/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
-.App{
+.App {
   font-family: montserrat;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
