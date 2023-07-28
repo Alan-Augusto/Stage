@@ -1,5 +1,69 @@
-.home{
+/* Estilos gerais da página */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos das seções com efeito parallax */
+  .section {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  #nossa-historia {
+    background-color: #ffd700;
+  }
+  
+  #provas {
+    background-color: #ffa500;
+  }
+  
+  #categorias {
+    background-color: #f08080;
+  }
+  
+  #parceiros {
+    background-color: #90ee90;
+  }
+  
+  #temporadas {
+    background-color: #00ced1;
+  }
+  
+  #contatos {
+    background-color: #d3d3d3;
+  }
+  
+  #equipe {
+    background-color: #ffa07a;
+  }
+  
+  #inscreva-se {
+    background-color: #bdb76b;
+  }
+  
+  /* Estilos do rodapé */
+  .footer {
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .Home a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .Home a.active {
+    border-bottom: 2px solid #fff; /* Estilo do link ativo */
+  }

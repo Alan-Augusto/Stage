@@ -6,6 +6,7 @@ import Parceiros from '../pages/parceiros/Parceiros'
 import Contatos from '../pages/contatos/Contatos'
 import Equipe from '../pages/equipe/Equipe'
 import Inscrever from '../pages/inscrição/Inscrever'
+import Historia from '../pages/historia/Historia'
 
 import SP24 from '../pages/temporadas/SP24/SP24'
 import SP25 from '../pages/temporadas/SP25/SP25'
@@ -17,6 +18,7 @@ export const RouterApp=()=>{
         <Router>
             <Routes>
                 <Route path='/' element={<Home/>}/>
+                <Route path='/nossahistoria' element={<Historia/>}/>
                 <Route path='/provas' element={<Provas/>}/>
                 <Route path='/categorias' element={<Categorias/>}/>
                 <Route path='/parceiros' element={<Parceiros/>}/>

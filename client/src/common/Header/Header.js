@@ -18,13 +18,16 @@ function Header() {
     return (
         <div className="Header">
             <div className="Logo_Header">
-                <img src="https://i.imgur.com/ae0Tsfu.png" alt="logo" />
+                <img src="https://i.imgur.com/ae0Tsfu.png" alt="logo" 
+                    onClick={(e) => navigate('/')}
+                    style={{cursor: 'pointer'}}
+                />
             </div>
 
             <div className="Elements_Header">
 
                 {/* Outros botões do header */}
-                <Button title="Nossa História" click={(e) => navigate('/')} />
+                <Button title="Nossa História" click={(e) => navigate('/nossahistoria')} />
                 <Button title="Provas" click={(e) => navigate('/provas')} />
                 <Button title="Categorias" click={(e) => navigate('/categorias')} />
                 <Button title="Parceiros" click={(e) => navigate('/parceiros')} />
