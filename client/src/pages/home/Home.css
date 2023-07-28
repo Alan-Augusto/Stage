@@ -7,7 +7,7 @@
 }
 
 .section h2 {
-  font-size: 40px;
+  font-size: 2rem;
   position: absolute;
   font-weight: 300;
   margin-left: 2rem;
@@ -15,8 +15,8 @@
 }
 
 .section p {
-    font-size: 30px;
-    margin-top: 6rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
     margin-left: 2rem;
     margin-right: 2rem;
     position: absolute;
@@ -28,7 +28,7 @@
   position: relative;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   text-align: justify;
   padding-bottom: 50px; /* Ajuste esse valor conforme necessário para adicionar espaço para o texto */
 }
@@ -40,7 +40,30 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.7) 70%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+}
+
+.section button {
+  color: #fff;
+  background-color: #0000006d;
+  position: absolute;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -190%);
+  border: 2px solid #fff;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: montserrat;
+  padding: 1.5rem;
+}
+
+.section button:hover{
+  background-color: #000000ad;
+  box-shadow: 0px 0px 10px #fff;
 }
 
 #bem-vindo {
@@ -71,6 +94,11 @@
   background-image: url(https://i.imgur.com/yyL1LPN.jpeg);
   background-size: cover;
   background-position: center;
+}
+
+#parceiros p{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
 }
 
 #temporadas {

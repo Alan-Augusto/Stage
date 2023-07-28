@@ -42,6 +42,7 @@ function Header() {
       <div className="Logo_Header">
         <img src="https://i.imgur.com/ae0Tsfu.png" alt="logo" 
             onClick={(e) => navigate("/")}
+            style={{cursor: "pointer"}}
         />
       </div>
 
