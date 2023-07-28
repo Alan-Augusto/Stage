@@ -8,44 +8,60 @@ function Home() {
     <div className='Home'>
       <Header />
 
+      <div className='section' id='bem-vindo'>
+        <h2>Bem-vindo à Stage!</h2>
+        <p>
+          Onde a emoção e a inovação aceleram juntas rumo ao futuro das provas competitivas automobilísticas!
+        </p>
+      </div>
+
       <div className='section' id='nossa-historia'>
         <h2>Nossa História</h2>
-        {/* Conteúdo da seção Nossa História */}
+        <p>
+        De uma paixão por velocidade à revolução das competições, nossa história é um percurso audacioso que redefine os limites das corridas amadoras, impulsionando o automobilismo para novos horizontes emocionantes.
+        </p>
       </div>
 
       <div className='section' id='provas'>
         <h2>Provas</h2>
-        {/* Conteúdo da seção Provas */}
+        <p>
+          ###
+        </p>
       </div>
 
       <div className='section' id='categorias'>
         <h2>Categorias</h2>
-        {/* Conteúdo da seção Categorias */}
+        <p>
+          ###
+        </p>
       </div>
 
       <div className='section' id='parceiros'>
         <h2>Parceiros</h2>
-        {/* Conteúdo da seção Parceiros */}
+        <p>
+          ###
+        </p>
       </div>
 
       <div className='section' id='temporadas'>
         <h2>Temporadas</h2>
-        {/* Conteúdo da seção Temporadas */}
-      </div>
-
-      <div className='section' id='contatos'>
-        <h2>Contatos</h2>
-        {/* Conteúdo da seção Contatos */}
+        <p>
+          ###
+        </p>
       </div>
 
       <div className='section' id='equipe'>
         <h2>Equipe</h2>
-        {/* Conteúdo da seção Equipe */}
+        <p>
+          ###
+        </p>
       </div>
 
       <div className='section' id='inscreva-se'>
         <h2>Inscreva-se</h2>
-        {/* Conteúdo da seção Inscreva-se */}
+        <p>
+          ###
+        </p>
       </div>
 
       <div className='footer'>

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Header.css";
-import Button from "../button/Button.js";
+import Button from "../Button/Button.js";
 import { useNavigate } from "react-router-dom";
 import SearchBar from "./SearchBar/SearchBar";
 
@@ -40,12 +40,14 @@ function Header() {
   return (
     <div className="Header">
       <div className="Logo_Header">
-        <img src="https://i.imgur.com/ae0Tsfu.png" alt="logo" />
+        <img src="https://i.imgur.com/ae0Tsfu.png" alt="logo" 
+            onClick={(e) => navigate("/")}
+        />
       </div>
 
       <div className="Elements_Header">
         {/* Outros botões do header */}
-        <Button title="Nossa História" click={(e) => navigate("/")} />
+        <Button title="Nossa História" click={(e) => navigate("/nossahistoria")} />
         <Button title="Provas" click={(e) => navigate("/provas")} />
         <Button title="Categorias" click={(e) => navigate("/categorias")} />
         <Button title="Parceiros" click={(e) => navigate("/parceiros")} />
