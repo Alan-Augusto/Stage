@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 import SearchBar from "./SearchBar/SearchBar";
-import Button from "../Button/Button";
+import Button from "../button/Button";
 
 const useOutsideClick = (callback) => {
   const ref = useRef();
