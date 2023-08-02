@@ -9,7 +9,12 @@ function Equipe() {
 return (
     <div className='Equipe'>
       <Header/>
+      <div className='Intro'>
+        <h1>Conheça a Equipe que Impulsiona a Stage:</h1>
+        <hr/>
+        <br/>
 
+      </div>
       <Card
         title='CEO: Matheo'
         text= 'Com visão audaciosa e paixão pelo mundo automobilístico, Matheo lidera a Stage com entusiasmo contagiante. Sua expertise em estratégias de negócios e sua habilidade de inspirar e motivar a equipe são peças-chave para o sucesso da startup. Sempre em busca de novos desafios, Matheo é o guia que nos leva rumo ao pódio da inovação e adrenalina, desbravando caminhos emocionantes para o futuro das provas competitivas.'
