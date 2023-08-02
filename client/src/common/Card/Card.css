@@ -3,7 +3,7 @@
     flex-direction: row;
     padding: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.237);
-    align-items: center;
+    align-items: start;
 }
 
 .Card img {
