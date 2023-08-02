@@ -15,7 +15,7 @@ function Home() {
       <div className='section' id='bem-vindo'>
         <h2>Bem-vindo à Stage!</h2>
         <p>
-          Onde a emoção e a inovação aceleram juntas rumo ao futuro das provas competitivas automobilísticas!
+          Onde a emoção e a inovação aceleram juntas rumo ao futuro das provas competitivas automobilísticas.
         </p>
       </div>
 

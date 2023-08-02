@@ -67,31 +67,31 @@
 }
 
 #bem-vindo {
-  background-image: url(https://i.imgur.com/Tdp6ufw.jpeg);
+  background-image: url('./assets/intro.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 #nossa-historia {
-  background-image: url(https://i.imgur.com/bbAWFwT.jpeg);
+  background-image: url('./assets/historia.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 #provas {
-  background-image: url(https://i.imgur.com/0k0OmC6.jpeg);
+  background-image: url('./assets/provas.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 #categorias {
-  background-image: url(https://i.imgur.com/uES0zX3.jpeg);
+  background-image: url('./assets/categorias.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 #parceiros {
-  background-image: url(https://i.imgur.com/yyL1LPN.jpeg);
+  background-image: url('./assets/parceiros.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -101,20 +101,14 @@
   border-radius: 10px;
 }
 
-#temporadas {
-  background-image: url(https://i.imgur.com/w5kMcGt.jpeg);
-  background-size: cover;
-  background-position: center;
-}
-
 #equipe {
-  background-image: url(https://i.imgur.com/Q0c40cw.jpeg);
+  background-image: url('./assets/equipe.jpeg');
   background-size: cover;
   background-position: center;
 }
 
 #inscreva-se {
-  background-image: url(https://i.imgur.com/mG4eH7v.jpeg);
+  background-image: url('./assets/inscrever.jpeg');
   background-size: cover;
   background-position: center;
 }
