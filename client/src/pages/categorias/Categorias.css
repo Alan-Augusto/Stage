@@ -1,44 +1,57 @@
 .Categorias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 10px;
-    width: 100%;
-    height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  width: 100%;
+  height: 400px;
 }
 
 .Category {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 15vw;
-    height: 100%;
-    padding: 2vw;
-    border-left-style: inset;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15vw;
+  height: 100%;
+  padding: 2vw;
+  border-left-style: inset;
+  text-align: center;
 }
 
-.Category>img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5)
+.Category > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 7px 7px 7px rgb(0, 0, 0, 0.5);
 }
 
-.Category>h5 {
-    background-color: black;
-    padding: 5px;
-    color: white;
-    cursor: pointer;
+.Category > h5 {
+  background-color: black;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
 }
 
-.Category>h5:hover {
-    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.8)
+.Category > h5:hover {
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1250px) {
+  main {
+    display: block !important;
+  }
+
+  .Category {
+    width: 80%;
+    margin: auto;
+
+    border-left-style: none;
+  }
 }

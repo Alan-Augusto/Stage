@@ -22,49 +22,27 @@ function Card({ title, text, image, position, cardHeight }) {
   // Usando a altura passada ou a altura atualizada do card como altura da imagem
   const cardImageHeight = cardHeight || currentCardHeight;
 
-  if (position === "left") {
-    return (
-      <div className="Card" style={{ width: "75%" }} ref={cardRef}>
+  return (
+    <div className="Card" ref={cardRef}>
+      {image && (
         <img
           src={image}
           alt={title}
           style={{
-            width: "34%",
             height: cardImageHeight,
             overflow: "hidden",
             objectFit: "cover",
             marginRight: "20px",
           }}
         />
+      )}
 
-        <div className="Card_Text" style={{ width: "66%" }}>
-          <h2>{title}</h2>
-          <p>{text}</p>
-        </div>
+      <div className="Card_Text">
+        <h2>{title}</h2>
+        <p>{text}</p>
       </div>
-    );
-  } else if (position === "right") {
-    return (
-      <div className="Card" style={{ width: "75%" }} ref={cardRef}>
-        <div className="Card_Text" style={{ width: "66%" }}>
-          <h2>{title}</h2>
-          <p>{text}</p>
-        </div>
-
-        <img
-          src={image}
-          alt={title}
-          style={{
-            width: "34%",
-            height: cardImageHeight,
-            overflow: "hidden",
-            objectFit: "cover",
-            marginLeft: "20px",
-          }}
-        />
-      </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default Card;
