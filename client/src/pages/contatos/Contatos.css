@@ -1,5 +1,75 @@
-.Contatos{
+.contatos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 0px;
+    width: 100vw;
+    height: calc(100vh - 120px);
+    background-image:url("./assets/contacts.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-repeat: no-repeat;
+}
+
+
+h4 {
+   text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #263439;
+    border: 1px inset white;
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+#envio {
+    margin-top: 20px;
+    height: 25px;
+    width: auto;
+    background-color: #232e31;
+    border: 1px inset white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#envio:active {
+    background-color: #263439;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+}
+
+.contato-dados{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 0 0;
+}
+
+.contato-dados input{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: 3vh;
+}
+
+.contato-dados textarea{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    height: 15vh;
+}
+
+.contato-dados label{
+    width:100%;
+    margin: 0 0;
 }
