@@ -18,7 +18,7 @@ function CardEvent({ title, date1, date2, local, image }) {
   }, [date1, date2]);
 
   return (
-    <div className="CardEvent" style={{ width: "75%" }} ref={CardEventRef}>
+    <div className="CardEvent" ref={CardEventRef}>
       <img
         src={image}
         alt={title}
@@ -26,7 +26,6 @@ function CardEvent({ title, date1, date2, local, image }) {
           height: CardEventHeight, // Usando a altura atualizada do CardEvent como altura da imagem
           overflow: "hidden",
           objectFit: "cover",
-          marginRight: "20px",
         }}
       />
 
