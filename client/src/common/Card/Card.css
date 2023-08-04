@@ -9,6 +9,7 @@
 
 .Card img {
   border-radius: 8px;
+  width: 34%;
 }
 
 .Card_Text {
@@ -34,5 +35,15 @@
   }
   .Card_Text {
     text-align: left;
+    width: 100%;
+  }
+
+  .Card img {
+    width: 100%;
+  }
+
+  .Card_Text h2 {
+    margin: 0px;
+    text-align: center;
   }
 }

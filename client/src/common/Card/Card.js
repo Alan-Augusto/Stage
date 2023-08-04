@@ -30,7 +30,6 @@ function Card({ title, text, image, position, cardHeight }) {
             src={image}
             alt={title}
             style={{
-              width: "34%",
               height: cardImageHeight,
               overflow: "hidden",
               objectFit: "cover",
@@ -57,7 +56,6 @@ function Card({ title, text, image, position, cardHeight }) {
             src={image}
             alt={title}
             style={{
-              width: "34%",
               height: cardImageHeight,
               overflow: "hidden",
               objectFit: "cover",
