@@ -17,21 +17,6 @@
   height: 32px;
 }
 
-@media (max-width: 1250px) {
-  .CardEvent {
-    width: 90%;
-    margin: auto;
-    display: block;
-  }
-  .CardEvent img {
-    width: 90%;
-    margin-right: 0;
-  }
-  .CardEvent_Text {
-    width: 100%;
-  }
-}
-
 .CardEvent_Text {
   width: 66%;
   justify-content: start;
@@ -51,4 +36,19 @@
 .Event-element img {
   margin-right: 8px;
   height: 25px;
+}
+
+@media (max-width: 1250px) {
+  .CardEvent {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .CardEvent img {
+    width: 90%;
+    margin-right: 0;
+  }
+  .CardEvent_Text {
+    width: 100%;
+  }
 }

@@ -18,20 +18,21 @@
   align-items: center;
 }
 
-@media (max-width: 1250px) {
-  .Card {
-    width: 90%;
-    margin: auto;
-  }
-  .Card_Text {
-    text-align: left;
-  }
-}
-
 .Card_Text h2 {
   margin: 0px;
 }
 
 .Card_Text p {
   text-align: justify;
+}
+
+@media (max-width: 1250px) {
+  .Card {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .Card_Text {
+    text-align: left;
+  }
 }
