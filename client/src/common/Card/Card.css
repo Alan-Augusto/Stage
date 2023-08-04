@@ -19,6 +19,10 @@
 }
 
 @media (max-width: 1250px) {
+  .Card {
+    width: 90%;
+    margin: auto;
+  }
   .Card_Text {
     text-align: left;
   }
