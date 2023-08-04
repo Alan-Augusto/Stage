@@ -17,37 +17,32 @@ function CardDate({ title, text, image, position }) {
     obterAltura();
   }, [text]);
 
-    return (
-      <div className="CardDate" style={{ width: "75%" }} ref={CardDateRef}>
-        
-        <div className="DateContainer">
-          <div className="Date">
-            <h2>{title}</h2>
-          </div>
-          <div className="LineHistory" style={{height: CardDateHeight}}>
-          </div>
-
+  return (
+    <div className="CardDate" style={{ width: "75%" }} ref={CardDateRef}>
+      <div className="DateContainer">
+        <div className="Date">
+          <h2>{title}</h2>
         </div>
-        
-        <div className="CardDate_Text" style={{ width: "66%" }}>
-          <p>{text}</p>
-        </div>
-  
-        <img
-          src={image}
-          alt={title}
-          style={{
-            width: "34%",
-            height: CardDateHeight, // Usando a altura atualizada do CardDate como altura da imagem
-            overflow: "hidden",
-            objectFit: "cover",
-            marginLeft: "20px"
-          }}
-        />
+        <div className="LineHistory" style={{ height: CardDateHeight }}></div>
       </div>
-    );
 
-  
+      <div className="CardDate_Text">
+        <p>{text}</p>
+      </div>
+
+      <img
+        src={image}
+        alt={title}
+        style={{
+          width: "34%",
+          height: CardDateHeight, // Usando a altura atualizada do CardDate como altura da imagem
+          overflow: "hidden",
+          objectFit: "cover",
+          marginLeft: "20px",
+        }}
+      />
+    </div>
+  );
 }
 
 export default CardDate;
