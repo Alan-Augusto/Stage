@@ -10,13 +10,17 @@
   border-radius: 8px;
   width: 34%;
 }
+#icons {
+  width: 32px;
+  height: 32px;
+}
 
 @media (max-width: 1250px) {
   .CardEvent {
     display: block;
   }
   .CardEvent img {
-    width: 100%;
+    width: 90%;
   }
   .CardEvent_Text {
     width: 100%;
@@ -32,10 +36,6 @@
 
 .CardEvent_Text h2 {
   margin: 0px;
-}
-
-.CardEvent_Text p {
-  text-align: justify;
 }
 
 .Event-element {
