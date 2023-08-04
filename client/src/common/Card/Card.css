@@ -1,25 +1,33 @@
-.Card{
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.237);
-    align-items: start;
+.Card {
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.237);
+  align-items: start;
 }
 
 .Card img {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
-.Card_Text{
-    justify-content: start;
-    text-align: justify;
-    align-items: center;
+.Card_Text {
+  width: 66%;
+  justify-content: start;
+  text-align: justify;
+  align-items: center;
 }
 
-.Card_Text h2{
-    margin: 0px;
+@media (max-width: 1250px) {
+  .Card_Text {
+    text-align: left;
+  }
 }
 
-.Card_Text p{
-    text-align:justify;
+.Card_Text h2 {
+  margin: 0px;
+}
+
+.Card_Text p {
+  text-align: justify;
 }

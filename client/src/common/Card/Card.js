@@ -24,7 +24,7 @@ function Card({ title, text, image, position, cardHeight }) {
 
   if (position === "left") {
     return (
-      <div className="Card" style={{ width: "75%" }} ref={cardRef}>
+      <div className="Card" ref={cardRef}>
         <img
           src={image}
           alt={title}
@@ -37,7 +37,7 @@ function Card({ title, text, image, position, cardHeight }) {
           }}
         />
 
-        <div className="Card_Text" style={{ width: "66%" }}>
+        <div className="Card_Text">
           <h2>{title}</h2>
           <p>{text}</p>
         </div>
@@ -45,8 +45,8 @@ function Card({ title, text, image, position, cardHeight }) {
     );
   } else if (position === "right") {
     return (
-      <div className="Card" style={{ width: "75%" }} ref={cardRef}>
-        <div className="Card_Text" style={{ width: "66%" }}>
+      <div className="Card" ref={cardRef}>
+        <div className="Card_Text">
           <h2>{title}</h2>
           <p>{text}</p>
         </div>
