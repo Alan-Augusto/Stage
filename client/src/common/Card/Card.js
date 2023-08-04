@@ -25,17 +25,19 @@ function Card({ title, text, image, position, cardHeight }) {
   if (position === "left") {
     return (
       <div className="Card" ref={cardRef}>
-        <img
-          src={image}
-          alt={title}
-          style={{
-            width: "34%",
-            height: cardImageHeight,
-            overflow: "hidden",
-            objectFit: "cover",
-            marginRight: "20px",
-          }}
-        />
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            style={{
+              width: "34%",
+              height: cardImageHeight,
+              overflow: "hidden",
+              objectFit: "cover",
+              marginRight: "20px",
+            }}
+          />
+        )}
 
         <div className="Card_Text">
           <h2>{title}</h2>
@@ -50,18 +52,19 @@ function Card({ title, text, image, position, cardHeight }) {
           <h2>{title}</h2>
           <p>{text}</p>
         </div>
-
-        <img
-          src={image}
-          alt={title}
-          style={{
-            width: "34%",
-            height: cardImageHeight,
-            overflow: "hidden",
-            objectFit: "cover",
-            marginLeft: "20px",
-          }}
-        />
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            style={{
+              width: "34%",
+              height: cardImageHeight,
+              overflow: "hidden",
+              objectFit: "cover",
+              marginLeft: "20px",
+            }}
+          />
+        )}
       </div>
     );
   }

@@ -5,9 +5,10 @@
 }
 
 @media (max-width: 1250px) {
-  .Categorias {
+  main {
     display: block;
   }
+
   .Category {
     width: 80%;
     margin: auto;
