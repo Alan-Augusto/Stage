@@ -40,9 +40,9 @@ function Inscrever() {
             <label> Gênero: </label>
             <p>
               <input type="radio" name="gender" required />
-              <label>Masculino</label>
+              <label>Masculino </label>
               <input type="radio" name="gender" required />
-              <label>Feminino</label>
+              <label>Feminino </label>
               <input type="radio" name="gender" required />
               <label>Outros</label>
             </p>

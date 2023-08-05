@@ -36,13 +36,13 @@ function Categorias() {
           <img src={require("./assets/Profissional.png")} alt="Profissional" />
           <h2>Profissional</h2>
           <p>Para Pilotos profissionais (competição em alto nível).</p>
-          <h5 onClick={(e) => navigate("/inscrição")}>R$2999,00</h5>
+          <h5 onClick={(e) => navigate("/inscrição")}>R$2499,00</h5>
         </div>
 
         <div className="Category">
           <img src={require("./assets/Modificados.png")} alt="Modificados" />
           <h2>Modificados</h2>
-          <p>Veículos customizados Formula Student</p>
+          <p>Veículos customizados Formula Student.</p>
           <h5 onClick={(e) => navigate("/inscrição")}>R$2999,00</h5>
         </div>
       </main>

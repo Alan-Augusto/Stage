@@ -11,7 +11,7 @@ function SP25() {
 
       <Card
         title="São Paulo - 2025"
-        text="Bem-vindo à cidade de São Paulo, um lugar onde a emoção e a velocidade se encontram. Conhecida como o coração pulsante do Brasil, São Paulo é uma cidade que nunca para e sempre está pronta para receber os amantes do automobilismo. Com eventos emocionantes de velocidade, desafiadoras provas de enduro e subidas eletrizantes nas montanhas, São Paulo oferece uma experiência única para os fãs de corridas de todas as idades. Se você está procurando adrenalina e competição de alto nível, São Paulo é o lugar certo para você."
+        text="Novamente em São Paulo ocorrerá a terceira temporada do evento."
         position="right"
       />
 

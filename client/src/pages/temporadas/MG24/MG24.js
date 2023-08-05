@@ -10,7 +10,7 @@ function MG24() {
       <Header />
       <Card
         title="Minas Gerais"
-        text="Além da beleza de suas cidades, Minas Gerais abriga também paisagens deslumbrantes, perfeitas para atividades emocionantes ao ar livre. As montanhas desafiadoras são o cenário perfeito para aventuras de velocidade e enduro, enquanto as estradas sinuosas proporcionam um cenário espetacular para os amantes de automobilismo."
+        text="Além da beleza de suas cidades, Minas Gerais abriga também paisagens deslumbrantes, perfeitas para atividades emocionantes ao ar livre. A geografia do estado será um cenário ideal para a realização das provas, devido ao grande número de estradas sinuosas e morros."
         position="right"
       />
 

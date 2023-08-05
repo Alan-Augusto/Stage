@@ -14,7 +14,7 @@ function Equipe() {
       </div>
       <Card
         title="CEO: Matheo"
-        text="Com visão audaciosa e paixão pelo mundo automobilístico, Matheo lidera a Stage com entusiasmo contagiante. Sua expertise em estratégias de negócios e sua habilidade de inspirar e motivar a equipe são peças-chave para o sucesso da startup. Sempre em busca de novos desafios, Matheo é o guia que nos leva rumo ao pódio da inovação e adrenalina, desbravando caminhos emocionantes para o futuro das provas competitivas."
+        text="Com visão audaciosa e paixão pelo mundo automobilístico, Matheo lidera a Stage com entusiasmo contagiante. Sua expertise em estratégias de negócios e sua habilidade de inspirar e motivar a equipe são peças-chave para o sucesso da empresa. Sempre em busca de novos desafios, Matheo é o guia que nos leva rumo ao pódio da inovação e adrenalina, desbravando caminhos emocionantes para o futuro das provas competitivas."
         position="right"
         image={require("./assets/matheo.jpeg")}
         cardHeight={"30rem"}
@@ -22,7 +22,7 @@ function Equipe() {
 
       <Card
         title="CFO: Augusto"
-        text="Com um olhar aguçado para números e finanças, Augusto é o mestre das planilhas e dos cálculos precisos. Seu papel fundamental na equipe é garantir que todos os recursos sejam gerenciados com eficiência, tornando a Stage uma startup financeiramente sólida. Além disso, sua mentalidade estratégica contribui para identificar oportunidades de crescimento e maximizar o impacto dos investimentos, fazendo da Stage uma potência no cenário automobilístico."
+        text="Com um olhar aguçado para números e finanças, Augusto é o mestre das planilhas e dos cálculos precisos. Seu papel fundamental na equipe é garantir que todos os recursos sejam gerenciados com eficiência, tornando a Stage uma empresa financeiramente sólida. Além disso, sua mentalidade estratégica contribui para identificar oportunidades de crescimento e maximizar o impacto dos investimentos, fazendo da Stage uma potência no cenário automobilístico."
         position="right"
         image={require("./assets/augusto.jpeg")}
         cardHeight={"30rem"}

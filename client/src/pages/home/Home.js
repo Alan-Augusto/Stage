@@ -92,8 +92,6 @@ function Home() {
           Faça Parte da Corrida!
         </button>
       </div>
-
-      <div className="footer">{/* Conteúdo do rodapé */}</div>
     </div>
   );
 }

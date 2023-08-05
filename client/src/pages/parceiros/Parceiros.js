@@ -7,9 +7,7 @@ function Parceiros() {
     <div className="Parceiros">
       <Header />
 
-      <h2 className="mt-5">
-        Para possíveis parceiros foram mapeadas as seguintes empresas:
-      </h2>
+      <h1 className="mt-5">Possíveis parceiros</h1>
       <h2>Empresas de Renome</h2>
       <Card
         title="Honda"
@@ -39,16 +37,10 @@ function Parceiros() {
         position="right"
       />
 
-      <Card
-        title="Patrocinadores de equipes de competição FSAE"
-        text="A colaboração com empresas que já investem e apoiam equipes de competição do ramo FSAE pode ser uma oportunidade promissora para nossa startup. Com o conhecimento e interesse que essas empresas têm no desenvolvimento de veículos de alta performance, elas podem oferecer suporte técnico e fornecer peças de reposição para nossas competições."
-        image={require("./assets/sae.jpg")}
-        position="right"
-      />
       <h2>Startups</h2>
       <Card
         title="EZVolt"
-        text="É uma das principais do país no ramo da mobilidade elétrica, principalmente quando é o assunto de postos de abastecimento. Um feito marcante da empresa foi a participação no 1o posto 100% elétrico no Brasil (em SP). Como a startup está em um crescimento exponencial, um auxílio dessa empresa que vem se consolidando no mercado não seria irrealista."
+        text="É uma das principais do país no ramo da mobilidade elétrica, principalmente quando é o assunto de postos de abastecimento. Um feito marcante da empresa foi a participação no primeiro posto 100% elétrico no Brasil (em SP). Como a startup está em um crescimento exponencial, um auxílio dessa empresa que vem se consolidando no mercado não seria irrealista."
         image={require("./assets/ezvolt.png")}
         position="left"
       />
@@ -62,7 +54,7 @@ function Parceiros() {
 
       <Card
         title="Beepbeep"
-        text="Sem dúvidas uma das ideias mais inovadoras e sustentáveis, o aluguel dinâmico de carros elétricos. Eles não precisam de chaves e também não tem necessidade dos clientes arcarem com manutenção ou limpeza do veículo. Essa startup futurística visa facilitar o serviço e auxilia o contato do consumidor com o produto através de um app interativo. Por ter uma visão a longo prazo aliado à mobilidade elétrica, essa empresa poderia se tornar uma parceira."
+        text="Sem dúvidas uma das ideias mais inovadoras e sustentáveis é o aluguel dinâmico de carros elétricos. Eles não precisam de chaves e também não tem necessidade dos clientes arcarem com manutenção ou limpeza do veículo. Essa startup futurística visa facilitar o serviço e auxilia o contato do consumidor com o produto através de um app interativo. Por ter uma visão a longo prazo aliada à mobilidade elétrica, essa empresa poderia se tornar uma parceira."
         image={require("./assets/bb.png")}
         position="left"
       />

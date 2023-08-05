@@ -61,10 +61,18 @@ function Header() {
           <Nav.Link href="/categorias">Categorias</Nav.Link>
           <Nav.Link href="/parceiros">Parceiros</Nav.Link>
           <NavDropdown title="Temporadas" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/temporadas/SP24">2024-SP</NavDropdown.Item>
-            <NavDropdown.Item href="/temporadas/MG24">2024-MG</NavDropdown.Item>
-            <NavDropdown.Item href="/temporadas/SP25">2025-SP</NavDropdown.Item>
-            <NavDropdown.Item href="/temporadas/PB25">2025-PB</NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/SP24">
+              2024 - SP
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/MG24">
+              2024 - MG
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/SP25">
+              2025 - SP
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/PB25">
+              2025 - PB
+            </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/equipe">Equipe</Nav.Link>
           <Nav.Link href="/inscrição">Inscreva-se</Nav.Link>
