@@ -53,7 +53,7 @@ function Header() {
         </div>
         <Navbar.Toggle aria-controls="elementsHeader" />
         <Navbar.Collapse id="elementsHeader" className="justify-content-end">
-          <div className="Elements_Header">
+          <Nav className="Elements_Header me-auto">
             {/* Outros botões do header */}
             <Nav.Link>
               <Button
@@ -118,7 +118,7 @@ function Header() {
               src="https://i.imgur.com/OWEpVne.png"
               alt="Youtube"
             />
-          </div>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
