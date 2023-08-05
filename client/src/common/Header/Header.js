@@ -41,84 +41,23 @@ function Header() {
   };
 
   return (
-    <Navbar expand="lg" className="Header">
+    <Navbar className="bg-body-tertiary" expand="lg">
       <Container>
-        <div className="Logo_Header">
-          <img
-            src="https://i.imgur.com/ae0Tsfu.png"
-            alt="logo"
-            onClick={(e) => navigate("/")}
-            style={{ cursor: "pointer" }}
-          />
-        </div>
-        <Navbar.Toggle aria-controls="elementsHeader" />
-        <Navbar.Collapse id="elementsHeader" className="justify-content-end">
-          <Nav className="me-auto">
-            {/* Outros botões do header */}
-            <Nav.Link>
-              <Button
-                title="Nossa História"
-                click={(e) => navigate("/nossahistoria")}
-              />
-            </Nav.Link>
-
-            <Button title="Provas" click={(e) => navigate("/provas")} />
-            <Button title="Categorias" click={(e) => navigate("/categorias")} />
-            <Button title="Parceiros" click={(e) => navigate("/parceiros")} />
-            <div className="Dropdown" ref={dropdownRef}>
-              <Button
-                title="Temporadas"
-                click={() => setShowDropdown(!showDropdown)}
-              />
-              {showDropdown && (
-                <div className="Dropdown-Content">
-                  <div
-                    className="Dropdown-Button"
-                    onClick={() => handleTemporadasDropdown("SP24")}
-                  >
-                    2024-SP
-                  </div>
-                  <div
-                    className="Dropdown-Button"
-                    onClick={() => handleTemporadasDropdown("MG24")}
-                  >
-                    2024-MG
-                  </div>
-                  <div
-                    className="Dropdown-Button"
-                    onClick={() => handleTemporadasDropdown("SP25")}
-                  >
-                    2025-SP
-                  </div>
-                  <div
-                    className="Dropdown-Button"
-                    onClick={() => handleTemporadasDropdown("PB25")}
-                  >
-                    2025-PB
-                  </div>
-                </div>
-              )}
-            </div>
-            <Button title="Equipe" click={(e) => navigate("/equipe")} />
-            <Button title="Inscreva-se" click={(e) => navigate("/inscrição")} />
-
-            <img
-              className="Social_Media"
-              src="https://i.imgur.com/7ZGBndX.png"
-              alt="Linkedin"
-            />
-            <img
-              className="Social_Media"
-              src="https://i.imgur.com/RBVMlLq.png"
-              alt="instagram"
-            />
-            <img
-              className="Social_Media"
-              id="YouTube"
-              src="https://i.imgur.com/OWEpVne.png"
-              alt="Youtube"
-            />
-          </Nav>
+        <Navbar.Brand href="#home">STAGE</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Nav.Link href="/nossahistoria">Nossa História</Nav.Link>
+          <Nav.Link href="/provas">Provas</Nav.Link>
+          <Nav.Link href="/categorias">Categorias</Nav.Link>
+          <Nav.Link href="/parceiros">Parceiros</Nav.Link>
+          <NavDropdown title="Temporadas" id="basic-nav-dropdown">
+            <NavDropdown.Item href="#action/3.1">2024-SP</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">2024-MG</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">2025-SP</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">2025-PB</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/equipe">Equipe</Nav.Link>
+          <Nav.Link href="/inscrição">Inscreva-se</Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
