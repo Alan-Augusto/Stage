@@ -43,7 +43,7 @@ function Header() {
   return (
     <Navbar className="bg-body-tertiary" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">STAGE</Navbar.Brand>
+        {/*         <Navbar.Brand href="#home">STAGE</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav.Link href="/nossahistoria">Nossa História</Nav.Link>
@@ -58,7 +58,7 @@ function Header() {
           </NavDropdown>
           <Nav.Link href="/equipe">Equipe</Nav.Link>
           <Nav.Link href="/inscrição">Inscreva-se</Nav.Link>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
