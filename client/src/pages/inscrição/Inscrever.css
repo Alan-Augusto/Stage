@@ -34,7 +34,9 @@ h4 {
     font-size: 0.9rem;
   }
   .form {
-    width: 70%;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
   }
   input[type="radio"] {
     display: block;
