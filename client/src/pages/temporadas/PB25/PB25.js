@@ -13,6 +13,7 @@ function PB25() {
         text="Com suas paisagens exuberantes e desafios naturais, a Paraíba é um destino emocionante para a temporada de competição. Suas trilhas sinuosas, cortando as montanhas e florestas, oferecem o cenário propício para emocionantes corridas de velocidade e adrenalina. Com uma diversidade única de terrenos e uma natureza preservada, a Paraíba promete proporcionar aos competidores uma experiência inesquecível e cheia de aventuras, combinando a emoção do esporte com a beleza das paisagens naturais."
         position="right"
         className="eventTextCard"
+        titleClassName="text-center"
       />
 
       <CardEvent

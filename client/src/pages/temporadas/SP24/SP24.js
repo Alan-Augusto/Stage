@@ -14,6 +14,7 @@ function SP24() {
         text="São Paulo, a maior metrópole do Brasil, é uma cidade movimentada e cheia de energia. Conhecida como a cidade que nunca dorme, oferece um cenário emocionante para os entusiastas do automobilismo. Suas pistas movimentadas são palco de desafios de velocidade e enduro, enquanto as montanhas do interior proporcionam emocionantes subidas e descidas. Não importa o seu gosto, São Paulo tem algo especial para todos os fãs de corridas e automobilismo."
         position="right"
         className="eventTextCard"
+        titleClassName="text-center"
       />
 
       <CardEvent

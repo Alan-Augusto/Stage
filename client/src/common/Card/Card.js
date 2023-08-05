@@ -1,7 +1,15 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./Card.css";
 
-function Card({ title, text, image, position, cardHeight, className }) {
+function Card({
+  title,
+  text,
+  image,
+  position,
+  cardHeight,
+  className,
+  titleClassName,
+}) {
   const cardRef = useRef(null);
   const [currentCardHeight, setCurrentCardHeight] = useState(cardHeight || 0);
 
@@ -38,7 +46,7 @@ function Card({ title, text, image, position, cardHeight, className }) {
       )}
 
       <div className={"Card_Text " + className}>
-        <h2 style={{ textAlign: "center" }}>{title}</h2>
+        <h2 className={titleClassName}>{title}</h2>
         <p>{text}</p>
       </div>
     </div>

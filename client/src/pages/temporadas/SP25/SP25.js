@@ -14,6 +14,7 @@ function SP25() {
         text="Novamente em São Paulo ocorrerá a terceira temporada do evento."
         position="right"
         className="eventTextCard"
+        titleClassName="text-center"
       />
 
       <CardEvent
