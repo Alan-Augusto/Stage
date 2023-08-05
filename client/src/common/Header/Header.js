@@ -98,8 +98,6 @@ function Header() {
             <Button title="Equipe" click={(e) => navigate("/equipe")} />
             <Button title="Inscreva-se" click={(e) => navigate("/inscrição")} />
 
-            <SearchBar />
-
             <img
               className="Social_Media"
               src="https://i.imgur.com/7ZGBndX.png"
