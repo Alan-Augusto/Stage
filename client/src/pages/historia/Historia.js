@@ -39,7 +39,7 @@ function Historia() {
       <CardDate
         title="2013"
         text="A NK Co. surgiu como uma montadora inovadora, focada em veículos elétricos do tipo Fórmula. Com uma visão futurista, a empresa buscava revolucionar o mercado automobilístico ao desenvolver tecnologias limpas e sustentáveis para o universo das corridas. A NK Co. rapidamente conquistou espaço como uma força disruptiva no cenário das competições, destacando-se pelo desempenho de seus veículos elétricos de alto desempenho."
-        image={require("./assets/2013.jpg")}
+        image={require("./assets/2013.JPG")}
       />
       <CardDate
         title="2021"

@@ -29,7 +29,7 @@ function MG24() {
         date1="17/08/2024 e 18/08/2024 (Sábado e Domingo)"
         date2="24/08/2024 e 25/08/2024 (Sábado e Domingo)"
         local="Sete Lagoas"
-        image={require("./assets/setelagoas.jpeg")}
+        image={require("./assets/setelagoas.jpg")}
       />
 
       <CardEvent
