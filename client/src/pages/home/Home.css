@@ -15,13 +15,13 @@
 }
 
 .section p {
-    font-size: 1.2rem;
-    margin-top: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    position: absolute;
-    font-weight: lighter;
-  }
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  position: absolute;
+  font-weight: lighter;
+}
 
 /* Estilos das seções com efeito parallax */
 .section {
@@ -40,7 +40,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 70%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 30%,
+    rgba(0, 0, 0, 1) 70%
+  );
 }
 
 .section button {
@@ -61,54 +65,54 @@
   padding: 1.5rem;
 }
 
-.section button:hover{
+.section button:hover {
   background-color: #000000ad;
   box-shadow: 0px 0px 10px #fff;
 }
 
 #bem-vindo {
-  background-image: url('./assets/intro.jpeg');
+  background-image: url("./assets/intro.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 #nossa-historia {
-  background-image: url('./assets/historia.jpeg');
+  background-image: url("./assets/historia.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 #provas {
-  background-image: url('./assets/provas.jpeg');
+  background-image: url("./assets/provas.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 #categorias {
-  background-image: url('./assets/categorias.jpeg');
+  background-image: url("./assets/categorias.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 #parceiros {
-  background-image: url('./assets/parceiros.jpeg');
+  background-image: url("./assets/parceiros.jpeg");
   background-size: cover;
   background-position: center;
 }
 
-#parceiros p{
+#parceiros p {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
 }
 
 #equipe {
-  background-image: url('./assets/equipe.jpeg');
+  background-image: url("./assets/equipe.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 #inscreva-se {
-  background-image: url('./assets/inscrever.jpeg');
+  background-image: url("./assets/inscrever.jpeg");
   background-size: cover;
   background-position: center;
 }

@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 import SearchBar from "./SearchBar/SearchBar";
@@ -40,27 +41,33 @@ function Header() {
     navigate(`/temporadas/${year}`); // Redirecionar para a página correspondente
   };
 
+  const navbar = { backgroundColor: "#263439", color: "white", width: "100%" };
+
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg" style={navbar}>
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
+        <Navbar.Brand href="/" className="Logo_Header">
+          <img
+            src="https://i.imgur.com/ae0Tsfu.png"
+            alt="logo"
+            onClick={(e) => navigate("/")}
+            style={{ cursor: "pointer" }}
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end gap-3">
+          <Nav.Link href="/nossahistoria">Nossa História</Nav.Link>
+          <Nav.Link href="/provas">Provas</Nav.Link>
+          <Nav.Link href="/categorias">Categorias</Nav.Link>
+          <Nav.Link href="/parceiros">Parceiros</Nav.Link>
+          <NavDropdown title="Temporadas" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/temporadas/SP24">2024-SP</NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/MG24">2024-MG</NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/SP25">2025-SP</NavDropdown.Item>
+            <NavDropdown.Item href="/temporadas/PB25">2025-PB</NavDropdown.Item>
+          </NavDropdown>
+          <Nav.Link href="/equipe">Equipe</Nav.Link>
+          <Nav.Link href="/inscrição">Inscreva-se</Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
