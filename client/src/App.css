@@ -7,7 +7,7 @@
   src: url(../public/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 .App {
-  font-family: montserrat;
+  font-family: montserrat !important;
 }
 
 html,
