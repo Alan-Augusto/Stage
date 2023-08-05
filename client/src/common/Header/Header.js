@@ -51,7 +51,7 @@ function Header() {
           />
         </div>
         <Navbar.Toggle aria-controls="elementsHeader" />
-        <Navbar.Collapse id="elementsHeader">
+        <Navbar.Collapse id="elementsHeader" className="justify-content-end">
           <div className="Elements_Header">
             {/* Outros botões do header */}
             <Button
