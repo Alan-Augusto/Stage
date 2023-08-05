@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import Header from "../../common/Header/Header";
-import { Link } from "react-scroll";
 
 function Home() {
   const navigate = useNavigate();
