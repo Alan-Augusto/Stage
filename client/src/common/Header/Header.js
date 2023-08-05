@@ -41,9 +41,32 @@ function Header() {
   };
 
   return (
-    <Navbar className="bg-body-tertiary" expand="lg">
+    <Navbar bg="light" expand="lg">
       <Container>
-        {/*         <Navbar.Brand href="#home">STAGE</Navbar.Brand>
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">About</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    /*   <Navbar className="bg-body-tertiary" expand="lg">
+      <Container>
+        <Navbar.Brand href="/">STAGE</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav.Link href="/nossahistoria">Nossa História</Nav.Link>
@@ -58,9 +81,9 @@ function Header() {
           </NavDropdown>
           <Nav.Link href="/equipe">Equipe</Nav.Link>
           <Nav.Link href="/inscrição">Inscreva-se</Nav.Link>
-        </Navbar.Collapse> */}
+        </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */
   );
 }
 
