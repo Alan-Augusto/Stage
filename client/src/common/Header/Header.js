@@ -44,7 +44,7 @@ function Header() {
   const navbar = { backgroundColor: "#263439", color: "white", width: "100%" };
 
   return (
-    <Navbar expand="lg" style={navbar}>
+    <Navbar expand="lg" style={navbar} variant="dark">
       <Container>
         <Navbar.Brand href="/" className="Logo_Header">
           <img
