@@ -38,7 +38,7 @@ function Card({ title, text, image, position, cardHeight, className }) {
       )}
 
       <div className={"Card_Text " + className}>
-        <h2>{title}</h2>
+        <h2 style={{ textAlign: "center" }}>{title}</h2>
         <p>{text}</p>
       </div>
     </div>
