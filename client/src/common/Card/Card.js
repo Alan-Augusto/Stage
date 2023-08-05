@@ -23,7 +23,7 @@ function Card({ title, text, image, position, cardHeight, className }) {
   const cardImageHeight = cardHeight || currentCardHeight;
 
   return (
-    <div className={"Card " + className} ref={cardRef}>
+    <div className="Card" ref={cardRef}>
       {image && (
         <img
           src={image}
@@ -37,7 +37,7 @@ function Card({ title, text, image, position, cardHeight, className }) {
         />
       )}
 
-      <div className="Card_Text">
+      <div className={"Card_Text " + className}>
         <h2>{title}</h2>
         <p>{text}</p>
       </div>
