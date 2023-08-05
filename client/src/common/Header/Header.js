@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
 import "./Header.css";
 import { useNavigate } from "react-router-dom";
 import SearchBar from "./SearchBar/SearchBar";
@@ -50,14 +51,17 @@ function Header() {
             style={{ cursor: "pointer" }}
           />
         </div>
-        <Navbar.Toggle aria-controls="elementsHeader" className="text-white" />
+        <Navbar.Toggle aria-controls="elementsHeader" />
         <Navbar.Collapse id="elementsHeader" className="justify-content-end">
           <div className="Elements_Header">
             {/* Outros botões do header */}
-            <Button
-              title="Nossa História"
-              click={(e) => navigate("/nossahistoria")}
-            />
+            <Nav.Link>
+              <Button
+                title="Nossa História"
+                click={(e) => navigate("/nossahistoria")}
+              />
+            </Nav.Link>
+
             <Button title="Provas" click={(e) => navigate("/provas")} />
             <Button title="Categorias" click={(e) => navigate("/categorias")} />
             <Button title="Parceiros" click={(e) => navigate("/parceiros")} />
