@@ -50,7 +50,7 @@ function Header() {
             style={{ cursor: "pointer" }}
           />
         </div>
-        <Navbar.Toggle aria-controls="elementsHeader" />
+        <Navbar.Toggle aria-controls="elementsHeader" className="text-white" />
         <Navbar.Collapse id="elementsHeader" className="justify-content-end">
           <div className="Elements_Header">
             {/* Outros botões do header */}
