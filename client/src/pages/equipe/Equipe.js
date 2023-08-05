@@ -7,7 +7,7 @@ function Equipe() {
   return (
     <div className="Equipe">
       <Header />
-      <div className="Intro">
+      <div className="Intro mt-5">
         <h1>Conheça a Equipe que Impulsiona a Stage:</h1>
 
         <br />
