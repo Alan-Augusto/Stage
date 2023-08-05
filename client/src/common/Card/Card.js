@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./Card.css";
 
-function Card({ title, text, image, position, cardHeight }) {
+function Card({ title, text, image, position, cardHeight, className }) {
   const cardRef = useRef(null);
   const [currentCardHeight, setCurrentCardHeight] = useState(cardHeight || 0);
 
@@ -23,7 +23,7 @@ function Card({ title, text, image, position, cardHeight }) {
   const cardImageHeight = cardHeight || currentCardHeight;
 
   return (
-    <div className="Card" ref={cardRef}>
+    <div className={"Card " + className} ref={cardRef}>
       {image && (
         <img
           src={image}

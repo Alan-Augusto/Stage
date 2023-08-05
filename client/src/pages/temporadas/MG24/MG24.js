@@ -12,6 +12,7 @@ function MG24() {
         title="Minas Gerais"
         text="Além da beleza de suas cidades, Minas Gerais abriga também paisagens deslumbrantes, perfeitas para atividades emocionantes ao ar livre. A geografia do estado será um cenário ideal para a realização das provas, devido ao grande número de estradas sinuosas e morros."
         position="right"
+        className="eventTextCard"
       />
 
       <CardEvent

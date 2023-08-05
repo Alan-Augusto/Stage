@@ -26,6 +26,10 @@
   text-align: justify;
 }
 
+.eventTextCard {
+  width: 100%;
+}
+
 @media (max-width: 1250px) {
   .Card {
     width: 90%;

@@ -62,16 +62,16 @@ function Header() {
           <Nav.Link href="/parceiros">Parceiros</Nav.Link>
           <NavDropdown title="Temporadas" id="basic-nav-dropdown">
             <NavDropdown.Item href="/temporadas/SP24">
-              2024 - SP
+              2024/1 - SP
             </NavDropdown.Item>
             <NavDropdown.Item href="/temporadas/MG24">
-              2024 - MG
+              2024/2 - MG
             </NavDropdown.Item>
             <NavDropdown.Item href="/temporadas/SP25">
-              2025 - SP
+              2025/1 - SP
             </NavDropdown.Item>
             <NavDropdown.Item href="/temporadas/PB25">
-              2025 - PB
+              2025/2 - PB
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/equipe">Equipe</Nav.Link>
@@ -79,26 +79,6 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    /*   <Navbar className="bg-body-tertiary" expand="lg">
-      <Container>
-        <Navbar.Brand href="/">STAGE</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-          <Nav.Link href="/nossahistoria">Nossa História</Nav.Link>
-          <Nav.Link href="/provas">Provas</Nav.Link>
-          <Nav.Link href="/categorias">Categorias</Nav.Link>
-          <Nav.Link href="/parceiros">Parceiros</Nav.Link>
-          <NavDropdown title="Temporadas" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">2024-SP</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">2024-MG</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">2025-SP</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">2025-PB</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="/equipe">Equipe</Nav.Link>
-          <Nav.Link href="/inscrição">Inscreva-se</Nav.Link>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar> */
   );
 }
 
